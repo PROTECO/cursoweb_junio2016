@@ -39,5 +39,8 @@ Ahora vamos a configurar nuestro nombre y correo con el que registraremos los co
 Si queremos verificar los valores que guardamos, podemos escribir el siguiente comando y nos tiene que devolver su contenido
 <pre> <b>git config --get user.name </b></pre>
 <pre> <b>git config --get user.email </b></pre>
+##### **IMPORTANTE: Estos pasos solo se tienen que seguir la primera vez**
+
+---
 
 
