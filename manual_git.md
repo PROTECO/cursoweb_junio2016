@@ -44,3 +44,29 @@ Si queremos verificar los valores que guardamos, podemos escribir el siguiente c
 ---
 
 
+Registrar cambios
+-
+Después de haber modificado/agregado/eliminado algún archivo es necesario <strong>observar</strong> el estado de nuestro directorio.
+<pre> <strong>git status</strong></pre>
+
+![verificar status](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/4.png)
+
+Podemos leer que hay "untracked files" de color rojo, esto quiere decir que debemos agregarlos al Index con cualquiera de los siguientes comandos
+<pre><ul>
+<li><strong>git add </strong> nombre_archivo  [ Agrega un solo archivo ]</li>
+<li><strong>git add --all </strong> [ Agrega todos los archivos ]</li>
+<li><strong>git add . </strong> [ Agrega el directorio en el que nos encontramos ]</li></ul></pre>
+
+Una vez agregados los archivos, podemos volver a <strong>observar </strong> el estado de nuestro directorio
+
+![agregar archivos](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/5.png)
+
+Si algún archivo queda en rojo, podemos repetimos el paso de arriba; cuando todos los archivos estén en verde, entonces será necesario añadir un mensaje que nos permita después identificar los cambios que se hayan registrado en el evento
+
+![agregando comentarios](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/6.png)
+
+##### **Ahora el/los archivos están incluidos en el HEAD pero aún no en tu repositorio remoto.**
+
+---
+
+
