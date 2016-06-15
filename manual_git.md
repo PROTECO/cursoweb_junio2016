@@ -78,20 +78,15 @@ Podemos verificar nuestros registros locales ejecutando
 
 *Presionar Q para salir*
 
-* Si el repositorio local fue clonado, entonces automáticamente ya lo tenemos conectado al sitio remoto, ejecutamos
+* Si el repositorio local fue clonado, entonces automáticamente ya lo tenemos conectado al sitio remoto, ejecutamos <pre><strong>git remote</strong></pre>
 
-<pre><strong>git remote</strong></pre>
+    para verificar que tengamos una variable <strong>origin</strong> que por default se crea al clonar el proyecto y que contiene la URL del repositorio remoto
 
-para verificar que tengamos una variable <strong>origin<strong> que por default se crea al clonar el proyecto y que contiene la URL del repositorio remoto
-
-![git remote](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/7.png)
+    ![git remote](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/7.png)
 
 * Si el repositorio no es clonado, primero debemos obtener la URL del resositorio remoto
 
-![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/8.png)
+    ![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/8.png)
 
-y despues lo conectamos ejecutando
-
-<pre><strong>git remote add origin</strong> url-remota-que-acabamos-de-copiar</pre>
-
-![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/9.png)
+    y despues lo conectamos ejecutando <pre><strong>git remote add origin</strong> url-remota-que-acabamos-de-copiar</pre>
+    ![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/9.png)
