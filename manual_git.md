@@ -69,4 +69,29 @@ Si algún archivo queda en rojo, podemos repetimos el paso de arriba; cuando tod
 
 ---
 
+Configurar un repositorio remoto
+-
+Podemos verificar nuestros registros locales ejecutando
+<pre><strong>git log</strong></pre>
 
+![ver registro](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/log.png)
+
+*Presionar Q para salir*
+
+* Si el repositorio local fue clonado, entonces automáticamente ya lo tenemos conectado al sitio remoto, ejecutamos
+
+<pre><strong>git remote</strong></pre>
+
+para verificar que tengamos una variable <strong>origin<strong> que por default se crea al clonar el proyecto y que contiene la URL del repositorio remoto
+
+![git remote](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/7.png)
+
+* Si el repositorio no es clonado, primero debemos obtener la URL del resositorio remoto
+
+![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/8.png)
+
+y despues lo conectamos ejecutando
+
+<pre><strong>git remote add origin</strong> url-remota-que-acabamos-de-copiar</pre>
+
+![URL github](https://raw.githubusercontent.com/PROTECO/cursoweb_junio2016/master/dist/9.png)
