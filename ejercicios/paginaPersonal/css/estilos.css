@@ -1,0 +1,92 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Verdana;
+  background: #f1f1f1;
+}
+h1{
+  color: #fff;
+}
+
+h1,h2{
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+ul{
+  /*Quita los bullets de las listas*/
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+a:hover{
+  color: #ccc;
+}
+
+.titulos-principales{
+  background: black;
+}
+
+.informacion-personal{
+  padding-top: 50px;
+  margin: auto;
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: center;
+  display: block;
+}
+.menu-navegacion{
+  text-align: center;
+}
+.menu-navegacion ul{
+  margin: 10px 0 0 0;
+  padding-left: 0;
+}
+.menu-navegacion li{
+  display: inline;
+  text-align: center;
+}
+
+.menu-navegacion a{
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  background: black;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.menu-navegacion li:hover a,
+.menu-navegacion li.active a{
+  background: #ccc;
+}
+
+/*Filmografia*/
+.netflix{
+  width: 100%;
+}
+ol{
+  list-style: none;
+}
+
+
+.footer{
+  position:absolute;
+  width: 100%;
+  height: 50px;
+  bottom:0;
+  background: gray;
+}
+/* - - -- - - - - - - - - - - - - - - - - - - - - - -  --  --  - - - - - - - - - */
