@@ -31,11 +31,11 @@ function changeColor(){
   var g = $('#green').val();
   var b = $('#blue').val();
 
-  $('#newColor').css('background-color', 'rgba(255,255,255)' );
+  $('#newColor').css('background-color', 'rgb('+r+','+g+','+b+')' );
 
 }
 
-
+$('input[type=range]').change(changeColor);
 
 
 
